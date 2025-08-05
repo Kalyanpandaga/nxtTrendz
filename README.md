@@ -4,7 +4,7 @@ Nxt Trendz is a fully responsive e-commerce web application inspired by Amazon a
 
 ## 🔗 Live URL
 
-👉 [https://nxttrenzshoping.ccbp.tech/](https://nxttrenzshoping.ccbp.tech/)
+👉 [https://nxttrendz-rzws.onrender.com](https://nxttrendz-rzws.onrender.com)
 
 ## 🔗 GitHub Repository
 
@@ -85,23 +85,6 @@ npm start
 
 ---
 
-## 📁 Folder Structure
-
-```
-nxtTrendz/
-├── public/
-├── src/
-│   ├── components/     # All React components
-│   ├── context/        # Context for Cart Management
-│   ├── pages/          # Page Components (Home, Products, Cart, etc.)
-│   ├── App.js
-│   └── index.js
-├── package.json
-└── README.md
-```
-
----
-
 ## ✨ Highlights
 
 - Fully mobile responsive design 📱
@@ -113,9 +96,7 @@ nxtTrendz/
 
 ## 📌 Note
 
-This project is part of the **NxtWave CCBP 4.0** training program and is intended for learning purposes.
-
----
+## This project is part of the **NxtWave CCBP 4.0** training program and is intended for learning purposes.
 
 ## 📧 Contact
 
