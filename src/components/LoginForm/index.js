@@ -51,6 +51,20 @@ class LoginForm extends Component {
     }
   }
 
+  setPrimeUserCreds = () => {
+    this.setState({
+      username: 'rahul',
+      password: 'rahul@2021',
+    })
+  }
+
+  setNormalUserCreds = () => {
+    this.setState({
+      username: 'raja',
+      password: 'raja@2021',
+    })
+  }
+
   renderPasswordField = () => {
     const {password} = this.state
 
@@ -122,6 +136,22 @@ class LoginForm extends Component {
           <button type="submit" className="login-button">
             Login
           </button>
+          <div className="credentials-container">
+            <button
+              type="button"
+              className="get-credentials-button prime-user-cred-button"
+              onClick={this.setPrimeUserCreds}
+            >
+              Prime User Creds
+            </button>
+            <button
+              type="button"
+              className="get-credentials-button normal-user-cred-button"
+              onClick={this.setNormalUserCreds}
+            >
+              Normal User Creds
+            </button>
+          </div>
           {showSubmitError && <p className="error-message">*{errorMsg}</p>}
         </form>
       </div>

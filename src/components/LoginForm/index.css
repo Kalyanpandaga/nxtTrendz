@@ -136,3 +136,35 @@
   line-height: 16px;
   color: #ff0b37;
 }
+
+.credentials-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.get-credentials-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 50px;
+  width: 45%;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+.prime-user-cred-button {
+  background-color: #6479e4;
+}
+
+.normal-user-cred-button {
+  background-color: #3ab294;
+}
