@@ -94,14 +94,13 @@ npm start
 
 ---
 
-## 📌 Note
-
-## This project is part of the **NxtWave CCBP 4.0** training program and is intended for learning purposes.
-
 ## 📧 Contact
 
-For any queries, feel free to reach out:
-
-- [Kalyan Pandaga – GitHub](https://github.com/Kalyanpandaga)
+If you have any questions or feedback, feel free to reach out via [GitHub](https://github.com/Kalyanpandaga).
 
 ---
+
+## ⭐ Acknowledgements
+
+- [CCBP - NxtWave](https://nxtwave.tech/) for API services and design resources
+- All job listing and details fetched from \[[https://apis.ccbp.in](https://apis.ccbp.in)]
